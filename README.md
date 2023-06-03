@@ -5,9 +5,10 @@ At the moment, it's only compatible with radarr.
 ## How to use:
 You need the aformentioned database, I can't provide it directly, but it shouldn't be too hard to find
 1. Clone this project
-2. Run ```pip install -r requirements.txt```
-3. Run ```python app.py``` (it uses port 80 so you may need to run it as root)
-4. Set the IP address in Radarr's indexer settings to point to the IP of the device that is running this script
+2. Paste the sqlite database in the same directory as this repo with the name rarbg_db.sqlite
+3. Run ```pip install -r requirements.txt```
+4. Run ```python app.py``` (it uses port 80 so you may need to run it as root)
+5. Set the IP address in Radarr's indexer settings to point to the IP of the device that is running this script
 
 ## Disclaimer
 It's a very basic project that I've built in an afternoon, so it probably won't support a lot of things. The RARBG API wasn't very well documented, so it's more of an approximation.
